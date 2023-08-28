@@ -1,7 +1,7 @@
-const importedAddFunction = require("./add.js");
+const imports = require("./add.js");
 
-const sum = importedAddFunction(5, 5);
-const sumcopy = importedAddFunction(5, 10);
-console.log(sum);
-console.log(sumcopy);
-console.log("Index file");
+console.log(imports);
+
+console.log(
+  imports.var1 + " " + imports.var2 + " " + imports.var3 + " " + imports.var4
+);
