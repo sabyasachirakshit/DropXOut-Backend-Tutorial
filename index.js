@@ -1,7 +1,12 @@
-const imports = require("./add.js");
+const sortArrayImportedFunctions = require("./sortarray.js");
 
-console.log(imports);
-
+const arr = [5, 1, 2, 3, 4];
+console.log("This was array before:", arr);
 console.log(
-  imports.var1 + " " + imports.var2 + " " + imports.var3 + " " + imports.var4
+  "This is array after sort with ascending:",
+  sortArrayImportedFunctions.sortArrayAsc(arr)
+);
+console.log(
+  "This is array after sort with descending:",
+  sortArrayImportedFunctions.sortArrayDesc(arr)
 );
