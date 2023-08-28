@@ -1,4 +1,3 @@
-const msg = require("./hello");
+const msg = require("./exports");
 
-console.log(msg.sayHello());
-console.log(msg.sayThanks());
+console.log(msg);
