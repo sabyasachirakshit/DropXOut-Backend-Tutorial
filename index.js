@@ -1,5 +1,3 @@
-function hello() {
-  console.log("Hello world!");
-}
-
-hello();
+require("./add.js");
+require("./hello.js");
+console.log("Index file");
